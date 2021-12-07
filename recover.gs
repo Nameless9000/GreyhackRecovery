@@ -11,6 +11,7 @@ end function
 
 IsRoot = function(comp)
 	k=comp.File("/boot/kernel.img")
+	if not k then return 1
 	return k.has_permission("w")
 end function
 
