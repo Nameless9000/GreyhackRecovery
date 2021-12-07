@@ -33,7 +33,6 @@ if action == "-r" or action == "--recover" then
 	if not backup then exit("Error: No backup found!")
 	
 	recover = function(file)
-		print(file.path)
 		fPath = file.path.remove("/.rec")
 		fPPath = file.parent.path.remove("/.rec")
 		if comp.File(fPath) then return null
