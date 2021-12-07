@@ -1,4 +1,4 @@
-importantFiles = ["/boot/System.map","/boot/initrd.img","/boot/kernel.img","/etc/xorg.conf","/etc/fstab","/lib/init.so","/lib/kernel_module.so","/lib/aptclient.so","/bin/ssh","/bin/chmod","/bin/useradd","/bin/reboot","/bin/sudo","/bin/rm","/bin/apt-get","/usr/bin/Terminal.exe","/usr/bin/Browser.exe","/usr/bin/FileExplorer.exe"]
+importantFiles = ["/boot/System.map","/boot/initrd.img","/boot/kernel.img","/etc/xorg.conf","/etc/fstab","/sys/xorg.sys","/sys/network.sys","/sys/config.sys","/lib/init.so","/lib/net.so","/lib/kernel_module.so","/lib/aptclient.so","/bin/ssh","/bin/chmod","/bin/useradd","/bin/reboot","/bin/sudo","/bin/rm","/bin/apt-get","/usr/bin/Terminal.exe","/usr/bin/Browser.exe","/usr/bin/FileExplorer.exe"]
 
 
 UsageMessage = function()
